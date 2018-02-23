@@ -4,10 +4,10 @@ def main():
     if a>1:
      for i in range(2,a):
         if(a%i)==0:
-            print (a,"is not a prime number")
+            print ("No")
             break
         else:
-            print (a,"is a prime number")
+            print ("yes")
             break
 if __name__ == '__main__':
     main()
